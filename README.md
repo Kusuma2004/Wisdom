@@ -1,82 +1,70 @@
-###Wisdom-user
+# Getting Started with Create React App
 
-Objective
-The goal of this assignment is to create a functional React.js application that fetches and displays a list of users from an API. The application should include features for searching, filtering, and viewing detailed information about each user. The expected learning outcomes from this assignment include understanding how to integrate APIs in a React application, managing state using either React Context API or Redux, handling asynchronous data fetching with loading and error states, and implementing responsive design with optional dark/light mode toggle.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Step-by-Step Instructions
-1. Project Setup and Initialization
-Set up the project directory:
+## Available Scripts
 
-Create a new directory for your project and navigate into it.
-Initialize a new React project using Create React App:
+In the project directory, you can run:
 
-npx create-react-app user-directory
+### `npm start`
 
-Navigate into the project directory:
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-cd user-directory
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-Install necessary dependencies:
+### `npm test`
 
-React Router for navigation:
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-npm install react-router-dom
+### `npm run build`
 
-For state management (choose one):
-React Context API (Builtin, no installation needed)
-Redux:
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-npm install redux react-redux
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-Material-UI:
-npm install @mui/material @emotion/react @emotion/styled
-2. Development Process
-Home Page Setup:
+### `npm run eject`
 
-Create a Home.js component.
-Fetch the list of users from the API: https://jsonplaceholder.typicode.com/users
-Display the users with their name, email, and city.
-Implement a search bar to filter users by name.
-Implement sorting functionality for the user list (A-Z, Z-A).
-Ensure that clicking on a user navigates to their detail page.
-User Detail Page:
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-Create a UserDetail.js component.
-Fetch and display full user details (name, email, phone, company name, website).
-Include a "Go Back" button to return to the home page.
-State Management:
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-If using React Context API:
-Set up a context provider to manage global state.
-Use the context in your components to manage user data and application state.
-If using Redux:
-Set up Redux store, actions, and reducers.
-Connect your components to the Redux store.
-Error Handling & Loading States:
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-Implement loading states while fetching data.
-Handle any potential errors that may occur during the data fetching process.
-3. Styling and Design
-CSS Styling:
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-Add CSS styles to ensure the application is visually appealing.
-Implement responsiveness to ensure the application works well on both mobile and desktop devices.
-Tailwind or Material-UI:
+## Learn More
 
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-Utilize pre-built components and theming capabilities if using Material-UI.
-Bonus Features:
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-Implement a dark/light mode toggle.
-Add pagination to the user list for better user experience on larger datasets.
-4. Deployment
-Deploying to Netlify/Vercel:
-Initialize a Git repository and commit your code.
-Push the repository to GitHub.
-For Netlify:
-Link your GitHub repository to your Netlify account.
-Choose the branch to deploy and set up build settings.
-For Vercel:
-Link your GitHub repository to your Vercel account.
-Import the project and configure deployment settings.
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
