@@ -1,4 +1,4 @@
-#Wisdom-user
+###Wisdom-user
 
 Objective
 The goal of this assignment is to create a functional React.js application that fetches and displays a list of users from an API. The application should include features for searching, filtering, and viewing detailed information about each user. The expected learning outcomes from this assignment include understanding how to integrate APIs in a React application, managing state using either React Context API or Redux, handling asynchronous data fetching with loading and error states, and implementing responsive design with optional dark/light mode toggle.
